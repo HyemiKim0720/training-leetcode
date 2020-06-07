@@ -33,5 +33,3 @@ class Solution:
             s2val=s2val+ord(s2[i])
         
         return s1val+s2val-(2*dp[len(s1)-1][len(s2)-1])
-            
-        

@@ -16,4 +16,3 @@ class Solution:
             mr=dp(root.right)
             return (ml[1]+mr[1]+root.val, max(ml)+max(mr))
         return max(dp(root)))
-
